@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../assets/beauty.png);
+    background:linear-gradient(rgba(27, 1, 1, 0.1));
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    width: 370px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 60px 110px auto auto;
+    background-color: azure;
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input {
+    width: 95%;
+    padding: 10px;
+    margin: auto;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #007bff;
+    color: white;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
+.form button:active {
+    background-color: #0056b3;
+}
+
+.form p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form p a {
+    color: #007bff;
+}
+
+.form p a:hover {
+    color: #0056b3;
+}
+
+.form .alert {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.form .alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
