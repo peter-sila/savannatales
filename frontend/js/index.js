@@ -59,6 +59,3 @@ window.addEventListener('beforeunload', function () {
 });
 
 
-
- 
- 
