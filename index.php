@@ -80,7 +80,7 @@ include 'db_backup.php';
       class="whatsapp-icon" 
       title="Chat with us on WhatsApp">
       <span class="chat-text">Chat with us!</span>
-   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon">
    </a>
 
 
