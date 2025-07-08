@@ -85,14 +85,50 @@ include 'db_backup.php';
 
 
    <div class="hero">
-      <div class="hero-content">
-         <h1 class="anim"><b>Discover Margical Kenya:<br> Your Journey Begins Here</b></h1>
-         <p class="anim">Your ultimate guide to discovering Kenya’s beauty and culture. Explore breathtaking landscapes, iconic wildlife, 
-            and vibrant traditions. Plan your adventures with detailed attraction guides, travel tips, and local insights, 
-            all in one seamless platform.
-         </p>
+      <div class="hero-content active-c" id="slide1">
+         <img src="frontend/assets/airport.jpg" alt="">
+         <div class="content">
+            <h1 class="anim"><b>Discover Margical Kenya:<br> Your Journey Begins Here</b></h1>
+            <p class="anim">Your ultimate guide to discovering Kenya’s beauty and culture. Explore breathtaking landscapes, iconic wildlife, 
+               and vibrant traditions. Plan your adventures with detailed attraction guides, travel tips, and local insights, 
+               all in one seamless platform.
+            </p>
 
-         <button class="btn-explore anim" onclick="btnexplore"><b>EXPLORE MORE</b></button>
+            <button class="btn-explore anim" onclick="btnexplore"><b>EXPLORE MORE</b></button>
+         </div>
+      </div>
+      <div class="hero-content" id="slide2">
+         <img src="frontend/assets/airport.jpg" alt="">
+         <div class="content">
+            <h1 class="anim"><b>Discover Margical Kenya:<br> Your Journey Begins Here</b></h1>
+            <p class="anim">Your ultimate guide to discovering Kenya’s beauty and culture. Explore breathtaking landscapes, iconic wildlife, 
+               and vibrant traditions. Plan your adventures with detailed attraction guides, travel tips, and local insights, 
+               all in one seamless platform.
+            </p>
+
+            <button class="btn-explore anim" onclick="btnexplore"><b>EXPLORE MORE</b></button>
+         </div>
+      </div>
+      <div class="hero-content" id="slide3">
+         <img src="frontend/assets/airport.jpg" alt="">
+         <div class="content">
+            <h1 class="anim"><b>Discover Margical Kenya:<br> Your Journey Begins Here</b></h1>
+            <p class="anim">Your ultimate guide to discovering Kenya’s beauty and culture. Explore breathtaking landscapes, iconic wildlife, 
+               and vibrant traditions. Plan your adventures with detailed attraction guides, travel tips, and local insights, 
+               all in one seamless platform.
+            </p>
+
+            <button class="btn-explore anim" onclick="btnexplore"><b>EXPLORE MORE</b></button>
+         </div>
+      </div>
+
+      <button class="nav-arrow left">&#10094;</button>
+      <button class="nav-arrow right">&#10095;</button>
+
+      <div class="indicators">
+         <span class="dot active" data-slide="0"></span>
+         <span class="dot" data-slide="1"></span>
+         <span class="dot" data-slide="2"></span>
       </div>
       
    </div>
@@ -212,7 +248,7 @@ include 'db_backup.php';
 
    <img src="assets/beach.jpg" class="imge">
 
-   <script src="js/index.js"></script>
+   <script src="frontend/js/index.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
    <script>
